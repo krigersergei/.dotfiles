@@ -1,28 +1,28 @@
 {
   "console.log($1)": {
     "prefix": "lg",
-    "scope": "javascript,html",
+    "scope": "javascript,html,typescript,typescriptreact",
     "description": "Console log.",
     "body": ["console.log($1);$0"]
   },
 
   "console.log('${1:var}', ${2:var})": {
     "prefix": "lgg",
-    "scope": "javascript,html",
+    "scope": "javascript,html,typescript,typescriptreact",
     "description": "Console log with a prefix.",
     "body": ["console.log('[${1:var}]', ${1:var});$0"]
   },
   
   "console.log('${1|emoji|}', $2)": {
     "prefix": "lge",
-    "scope": "javascript,html",
+    "scope": "javascript,html,typescript,typescriptreact",
     "description": "Console log with emoji.",
     "body": ["console.log('${1|✅,❌,😀,🤔,😢,👍|}', $2);$0"]
   },
   
   "console.log('${1|num|}', $2)": {
     "prefix": "lgn",
-    "scope": "javascript,html",
+    "scope": "javascript,html,typescript,typescriptreact",
     "description": "Console log with numbers.",
     "body": ["console.log('${1|[1],[2],[3],[4],[5],[6],[7],[8],[9]|}', $2);$0"]
   }
