@@ -9,5 +9,11 @@ source .osx.sh
 # Setup VSCode.
 source .vscode.sh
 
+# Add exports
+source .exports.sh
+
+# Set global gitignore
+ln -s ~/.dotfiles/.gitignore ~
+
 # Install node.
 nvm install node
