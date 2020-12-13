@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 
 # Installing extensions.
-# code --install-extension eamodio.gitlens
-# code --install-extension dbankier.vscode-quick-select
-# code --install-extension esbenp.prettier-vscode
-# code --install-extension dbaeumer.vscode-eslint
-# code --install-extension EditorConfig.EditorConfig
-# code --install-extension gruntfuggly.todo-tree
-# code --install-extension adpyke.codesnap
+code --install-extension eamodio.gitlens
+code --install-extension dbankier.vscode-quick-select
+code --install-extension esbenp.prettier-vscode
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension EditorConfig.EditorConfig
+code --install-extension gruntfuggly.todo-tree
+code --install-extension adpyke.codesnap
 
 # Adding VSCode settings.
 if [[ -f ~/Library/Application\ Support/Code/User/settings.json ]]; then
